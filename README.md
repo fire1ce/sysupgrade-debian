@@ -33,7 +33,5 @@ Empale:
 this will run the script every day at 04:00
 
 ```bash
-0 4 * * * /usr/bin/autoupdate
+0 4 * * * /root/tools/debianAutoUpdate.sh
 ```
-
-
