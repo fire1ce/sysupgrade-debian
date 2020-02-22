@@ -2,13 +2,21 @@
 
 ## Ubuntu/Raspbian/Debian - Auto Update Script
 
-## Symlink
+## Installation
 
-ln -s /root/tools/debianAutoUpdate/debianAutoUpdate.sh /usr/bin/autoupdate
+```bash
+wget https://raw.githubusercontent.com/fire1ce/debianAutoUpdate/master/debianAutoUpdate.sh
+chmod +x debianAutoUpdate.sh
+ln -s ${PWD}/debianAutoUpdate.sh /usr/bin/autoupdate
+```
+
+run:
+
+```bash
+autoupdate
+```
 
 ## Install as Schedule at Crontab
-
-As __Root__ run:
 
 ```bash
 crontab -e
@@ -17,10 +25,10 @@ crontab -e
 Append this and chnage the path were the 
 
 ```bash
-0 4 * * * <full Path>/debianAutoUpdate.sh
+0 4 * * * /usr/bin/autoupdate
 ```
 
-Exmpale:
+Empale:
 
 this will run the script every day at 04:00
 
