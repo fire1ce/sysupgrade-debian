@@ -21,17 +21,14 @@ autoupdate
 ```bash
 crontab -e
 ```
-
-Append this and chnage the path were the 
+Empale:
+this will run the script every day at 04:00
 
 ```bash
 0 4 * * * /usr/bin/autoupdate
 ```
 
-Empale:
 
-this will run the script every day at 04:00
 
-```bash
-0 4 * * * /root/tools/debianAutoUpdate.sh
+
 ```
