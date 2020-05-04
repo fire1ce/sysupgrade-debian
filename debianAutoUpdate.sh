@@ -1,2 +1,18 @@
 #!/bin/sh
-sudo apt-get update && sudo apt-get full-upgrade -y && sudo apt-get autoclean -y && sudo apt autoremove -y
+
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+reset=$(tput sgr0)
+
+echo "${yellow}==>${reset} apt update..."
+sudo apt update 2>&1
+echo -e "${green}==>${reset} apt update finished."
+
+echo "${yellow}==>${reset} Running full-upgrade..."
+sudo apt full-upgrade -y 2>&1
+echo "${green}==>${reset} Finished full-upgrade"
+
+echo "${green}==>${reset} Cleaning..."
+sudo apt autoclean -y 2>&1
+sudo apt autoremove -y 2>&1
+echo "${green}==>${reset} All Updates & Cleanups Finnished"
