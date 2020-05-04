@@ -6,7 +6,7 @@ reset=$(tput sgr0)
 
 echo "${yellow}==>${reset} apt update..."
 sudo apt update 2>&1
-echo -e "${green}==>${reset} apt update finished."
+echo "${green}==>${reset} apt update finished."
 
 echo "${yellow}==>${reset} Running full-upgrade..."
 sudo apt full-upgrade -y 2>&1
