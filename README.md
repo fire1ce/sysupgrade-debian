@@ -6,8 +6,8 @@
 
 ```bash
 wget https://raw.githubusercontent.com/fire1ce/debianAutoUpdate/master/debianAutoUpdate.sh
-chmod +x debianAutoUpdate.sh
-mv debianAutoUpdate.sh /usr/bin/autoupdate
+sudo chmod +x debianAutoUpdate.sh
+sudo mv debianAutoUpdate.sh /usr/bin/autoupdate
 ```
 
 run:
