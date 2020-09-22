@@ -1,34 +1,25 @@
-# debianAutoUpdate
+# debianUpdate Simple Bash Script
 
-## Ubuntu/Raspbian/Debian - Auto Update Script
+## Ubuntu/Raspbian/Debian - Update Script
+
+Is a simple bash script to run full full-upgrade update and cleanup
+Basicity it will run those commands with pretty colors =)
+
+* sudo apt update
+* sudo apt full-upgrade
+* sudo apt autoclean
+* sudo apt autoremove
 
 ## Installation
 
 ```bash
-wget https://raw.githubusercontent.com/fire1ce/debianAutoUpdate/master/debianAutoUpdate.sh
-sudo chmod +x debianAutoUpdate.sh
-sudo mv debianAutoUpdate.sh /usr/bin/autoupdate
+wget https://raw.githubusercontent.com/fire1ce/debianUpdate/master/debianUpdate.sh
+sudo chmod +x debianUpdate.sh
+sudo mv debianUpdate.sh.sh /usr/bin/update
 ```
 
-run:
+## Run
 
 ```bash
-autoupdate
-```
-
-## Install as Schedule at Crontab
-
-```bash
-crontab -e
-```
-Empale:
-this will run the script every day at 04:00
-
-```bash
-0 4 * * * /usr/bin/autoupdate
-```
-
-
-
-
+update
 ```
