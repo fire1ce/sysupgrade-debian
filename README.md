@@ -2,8 +2,7 @@
 
 ## Ubuntu/Raspbian/Debian - Update Script
 
-Is a simple bash script to run full full-upgrade update and cleanup.  
-Basically it runs those commands with pretty colors =)
+Is a simple bash script that run those commands with pretty colors:
 
 -   sudo apt update
 -   sudo apt full-upgrade
