@@ -15,4 +15,4 @@ echo "${green}==>${reset} Finished full-upgrade"
 echo "${green}==>${reset} Cleaning..."
 sudo apt autoclean -y 2>&1
 sudo apt autoremove -y 2>&1
-echo "${green}==>${reset} All Updates & Cleanups Finnished"
+echo "${green}==>${reset} All Updates & Cleanups Finished"
