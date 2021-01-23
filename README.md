@@ -23,3 +23,7 @@ sudo mv debianUpdate.sh /usr/bin/update
 ```bash
 update
 ```
+
+## Automated updates with Crontab
+
+```sudo echo "@weekly /usr/bin/update" >> /var/spool/cron/crontabs/root```
