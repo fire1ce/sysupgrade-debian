@@ -12,13 +12,13 @@ Is a simple bash script that run those commands with pretty colors:
 ## Installation
 
 ```bash
-wget https://raw.githubusercontent.com/fire1ce/debianUpdate/master/debianUpdate.sh
-sudo chmod +x debianUpdate.sh
-sudo mv debianUpdate.sh /usr/bin/update
+wget https://raw.githubusercontent.com/fire1ce/debianUpdate/master/sysupgrade.sh
+sudo chmod +x sysupgrade.sh
+sudo mv sysupgrade.sh /usr/bin/sysupgrade
 ```
 
 ## Run
 
 ```bash
-update
+sysupgrade
 ```
