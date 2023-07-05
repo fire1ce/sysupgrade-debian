@@ -16,3 +16,9 @@ echo "${green}==>${reset} Cleaning..."
 sudo apt autoclean -y 2>&1
 sudo apt autoremove -y 2>&1
 echo "${green}==>${reset} All Updates & Cleanups Finished"
+
+# Check if refind is installed
+if dpkg -l refind >/dev/null 2>&1; then
+    sudo refind-install 2>&1
+    sudo refind-mkdefault 2>&1
+fi
