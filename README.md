@@ -12,7 +12,7 @@ Is a simple bash script that run those commands with pretty colors:
 ## Installation
 
 ```bash
-wget https://raw.githubusercontent.com/fire1ce/debianUpdate/master/sysupgrade.sh
+wget https://raw.githubusercontent.com/fire1ce/sysupgrade-debian/master/sysupgrade.sh
 sudo chmod +x sysupgrade.sh
 sudo mv sysupgrade.sh /usr/bin/sysupgrade
 echo "usage: sysupgrade"
